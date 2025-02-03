@@ -1,61 +1,47 @@
-#Capture Photo
+# Capture Photo
 
-Overview
+### Overview
 
 This project is a React-based web application that allows users to capture photos using either the front or back camera. The app is built using ReactJS, react-webcam, and TailwindCSS for styling.
 
-Features
+### Features
 
-Capture photos using the front or back camera.
+* Capture photos using the front or back camera.
+* Seamlessly switch between front and back cameras.
+* Display the captured image for user preview.
+* Option to retake the photo if needed.
+* Handle camera unavailability, inactivity, or permission denial with informative error messages.
 
-Seamlessly switch between front and back cameras.
+### Technologies Used
 
-Display the captured image for user preview.
+* ReactJS: JavaScript library for building the UI.
+* react-webcam: Provides camera access within a React application.
+* TailwindCSS: Used for responsive and clean UI styling.
 
-Option to retake the photo if needed.
+### Installation & Setup
 
-Handle camera unavailability, inactivity, or permission denial with informative error messages.
+#### Clone the repository:
+```git clone https://github.com/poojashetty220/capture-photo```
 
-Technologies Used
+#### Navigate to the project folder:
+```cd capture-photo```
 
-ReactJS: JavaScript library for building the UI.
+#### Install dependencies:
 
-react-webcam: Provides camera access within a React application.
+```npm install```
 
-TailwindCSS: Used for responsive and clean UI styling.
+#### Start the development server:
 
-Installation & Setup
+```npm run dev```
 
-Clone the repository:
+### Usage
 
-git clone https://github.com/poojashetty220/capture-photo
+* Grant the necessary camera permissions when prompted.
+* Use the Switch Camera button to toggle between front and back cameras.
+* Click the Capture button to take a photo.
+* Preview the captured image and choose to retake it if necessary.
+* If camera access fails, an appropriate error message will be displayed.
 
-Navigate to the project folder:
-
-cd capture-photo
-
-Install dependencies:
-
-npm install
-
-Start the development server:
-
-npm run dev
-
-Usage
-
-Grant the necessary camera permissions when prompted.
-
-Use the Switch Camera button to toggle between front and back cameras.
-
-Click the Capture button to take a photo.
-
-Preview the captured image and choose to retake it if necessary.
-
-If camera access fails, an appropriate error message will be displayed.
-
-Error Handling
-
-If the camera is not accessible or permission is denied, the app will show a user-friendly error message.
-
-If no camera device is found, users will be informed accordingly.
+### Error Handling
+* If the camera is not accessible or permission is denied, the app will show a user-friendly error message.
+* If no camera device is found, users will be informed accordingly.

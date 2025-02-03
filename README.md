@@ -1,1 +1,1 @@
-# capture-photo
+Capture Photo

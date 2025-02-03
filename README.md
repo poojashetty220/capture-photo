@@ -38,7 +38,7 @@ This project is a React-based web application that allows users to capture photo
 
 * Grant the necessary camera permissions when prompted.
 * Use the Switch Camera button to toggle between front and back cameras.
-* Click the Capture button to take a photo.
+* Click the Take photo button to take a photo.
 * Preview the captured image and choose to retake it if necessary.
 * If camera access fails, an appropriate error message will be displayed.
 
